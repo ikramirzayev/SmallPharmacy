@@ -10,14 +10,14 @@ if (!isset($_SESSION['admin'])) {
 <head>
   <meta charset="UTF-8" />
   <title>Eczane Sistemi</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../styles/style.css" />
 </head>
 <body>
   <h1>Eczane Yönetim Paneli</h1>
 
   <nav>
-    <a href="ilaclar.html">İlaçlar</a>
-    <a href="musterirler.php">Satın Alma</a>
+    <a href="ilaclar.php">İlaçlar</a>
+    <a href="musteriler.php">Müşteriler</a>
     <a href="satin_alma.php">Satın Alma</a>
     <a href="logout.php">Çıkış Yap</a>
   </nav>

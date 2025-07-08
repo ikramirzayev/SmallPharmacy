@@ -5,8 +5,7 @@ if (!isset($_SESSION['admin'])) {
     exit();
 }
 
-require 'config.php';
-
+require_once __DIR__ . '/../config.php';
 // Müşteri ekleme
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $ad = $_POST['ad'];
@@ -25,7 +24,7 @@ $musteriler = $conn->query("SELECT * FROM musteri ORDER BY musteri_id DESC")->fe
 <head>
   <meta charset="UTF-8">
   <title>Müşteri Yönetimi</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
   <h1>Müşteriler</h1>
