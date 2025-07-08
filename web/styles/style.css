@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #3498db;
+
+}
+nav a:hover{
+    opacity: 0.75;
+    color:darkgreen;
+    transition: .2s;
+}
+nav { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+p{
+    margin-top:150px;
+    text-align: center;
+}
